@@ -1,0 +1,42 @@
+header {
+  position: fixed;
+  max-width: 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-inline: 5%;
+  background-color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+  gap: 50px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 2px solid pink;
+}

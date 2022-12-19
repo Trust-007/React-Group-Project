@@ -1,0 +1,10 @@
+.rocket {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rocket img {
+  width: 350px;
+  height: 300px;
+}
