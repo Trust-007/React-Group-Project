@@ -25,3 +25,8 @@ code {
     'Courier New',
     monospace;
 }
+
+.tableSection {
+  margin-top: 3rem;
+  padding-top: 2rem;
+}

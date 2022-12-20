@@ -1,7 +1,10 @@
-const Mission = () => (
+import React from 'react';
+import MissionList from '../components/missions/missionList';
+
+const Missionpage = () => (
   <>
-    <h1 style={{ marginTop: '10%' }}>Mission</h1>
+    <MissionList />
   </>
 );
 
-export default Mission;
+export default Missionpage;
