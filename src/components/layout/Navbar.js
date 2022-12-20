@@ -32,7 +32,7 @@ const Navbar = () => (
             to="/profile"
             className={(data) => (data.isActive ? classes.active : '')}
           >
-            Profile
+            My Profile
           </NavLink>
         </li>
       </ul>
