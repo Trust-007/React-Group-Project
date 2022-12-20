@@ -1,8 +1,14 @@
-import { useSelector } from 'react-redux';
+import { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import Rocket from './Rocket';
+import fetchRockets from '../../redux/rockets/rocketThunk';
 import classes from './Rockets.module.css';
 
 const Rockets = () => {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(fetchRockets());
+  }, [dispatch]);
   const rockets = useSelector((state) => state.rockets);
   const rocketList = rockets.map((item) => (
     <Rocket
@@ -10,6 +16,7 @@ const Rockets = () => {
       description={item.description}
       flickrImages={item.flickr_images}
       rocketName={item.rocket_name}
+      reserved={item.reserved}
       id={item.id}
     />
   ));

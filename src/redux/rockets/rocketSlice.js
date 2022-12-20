@@ -7,6 +7,20 @@ const rocketSlice = createSlice({
     getData(state, action) {
       state.splice(0, state.length, ...action.payload);
     },
+    reserveRocket(state, action) {
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.payload) return rocket;
+        return { ...rocket, reserved: true };
+      });
+      return newState;
+    },
+    cancelReserve(state, action) {
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.payload) return rocket;
+        return { ...rocket, reserved: false };
+      });
+      return newState;
+    },
   },
 });
 
