@@ -8,7 +8,7 @@ const Navbar = () => (
     <nav>
       <div className={classes.logo}>
         <img width="50" height="50" alt="logo" src={logo} />
-        <div>Space Travelers Hub</div>
+        <div>Space Travelers&apos; Hub</div>
       </div>
       <ul>
         <li>
