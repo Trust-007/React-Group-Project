@@ -10,7 +10,6 @@ const Rockets = () => {
     dispatch(fetchRockets());
   }, [dispatch]);
   const rockets = useSelector((state) => state.rockets);
-  console.log(rockets);
   const rocketList = rockets.map((item) => (
     <Rocket
       key={item.id}

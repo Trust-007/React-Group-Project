@@ -8,25 +8,18 @@ const rocketSlice = createSlice({
       state.splice(0, state.length, ...action.payload);
     },
     reserveRocket(state, action) {
-      state.map((item) => {
-        if (item.id !== action.payload) {
-          console.log({ ...item });
-          return item;
-        }
-        console.log({ ...item, reserved: true });
-        return { ...item, reserved: true };
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.payload) return rocket;
+        return { ...rocket, reserved: true };
       });
-      return state;
+      return newState;
     },
     cancelReserve(state, action) {
-      state.map((item) => {
-        if (item.id !== action.payload) {
-          return item;
-        }
-        console.log({ ...item, reserved: false });
-        return { ...item, reserved: false };
+      const newState = state.map((rocket) => {
+        if (rocket.id !== action.payload) return rocket;
+        return { ...rocket, reserved: false };
       });
-      return state;
+      return newState;
     },
   },
 });
