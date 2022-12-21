@@ -24,15 +24,15 @@ const MissionItems = ({ items }) => {
       <td className="title">{missionName}</td>
       <td>{description}</td>
       <td className="check">
-        <Badge className={reserved ? 'Active' : 'Action'}>
-          {reserved ? 'ACTIVE MEMBER' : 'NOT A MEMEBR'}
+        <Badge className={reserved ? 'active' : 'nonActive'}>
+          {reserved ? 'Active member' : 'NOT A MEMEBR'}
         </Badge>
       </td>
       <td width="15%" className="check">
         <Button
           id={missionId}
           onClick={reserved ? leaveAMission : joinAmission}
-          variant={reserved ? 'outline-danger' : 'outline-secondary'}
+          className={reserved ? 'leaveBtn' : 'joinBtn'}
         >
           {reserved ? 'Leave Misson' : 'Join Mission'}
         </Button>
