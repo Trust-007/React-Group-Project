@@ -1,6 +1,122 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`display the mission in the page  display all the missions 1`] = `
+<div>
+  <section
+    class="tableSection"
+  >
+    <table>
+      <tr
+        style="background-color: white;"
+      >
+        <th
+          class="border"
+          width="10%"
+        >
+          Mission
+        </th>
+        <th
+          class="border"
+          width="60%"
+        >
+          Description
+        </th>
+        <th
+          class="border"
+        >
+          Status
+        </th>
+        <th
+          class="border"
+        >
+           
+        </th>
+      </tr>
+      <tbody />
+    </table>
+  </section>
+</div>
+`;
+
+exports[`display the mission in the page display the mission  1`] = `
+<div>
+  <section
+    class="tableSection"
+  >
+    <table>
+      <tr
+        style="background-color: white;"
+      >
+        <th
+          class="border"
+          width="10%"
+        >
+          Mission
+        </th>
+        <th
+          class="border"
+          width="60%"
+        >
+          Description
+        </th>
+        <th
+          class="border"
+        >
+          Status
+        </th>
+        <th
+          class="border"
+        >
+           
+        </th>
+      </tr>
+      <tbody />
+    </table>
+  </section>
+</div>
+`;
+
+exports[`display the mission in the page display the mission page 1`] = `<div />`;
+
 exports[`display the mission in the page should display all the missions 1`] = `
+<div>
+  <section
+    class="tableSection"
+  >
+    <table>
+      <tr
+        style="background-color: white;"
+      >
+        <th
+          class="border"
+          width="10%"
+        >
+          Mission
+        </th>
+        <th
+          class="border"
+          width="60%"
+        >
+          Description
+        </th>
+        <th
+          class="border"
+        >
+          Status
+        </th>
+        <th
+          class="border"
+        >
+           
+        </th>
+      </tr>
+      <tbody />
+    </table>
+  </section>
+</div>
+`;
+
+exports[`display the mission in the page should display all the missions 2`] = `
 <div>
   <section
     class="tableSection"
