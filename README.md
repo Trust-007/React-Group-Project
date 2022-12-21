@@ -57,11 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [SpaceShip] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+Working with the real live data from the SpaceX API. Build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets, book dragons and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
