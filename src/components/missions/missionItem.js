@@ -21,14 +21,14 @@ const MissionItems = ({ items }) => {
   };
   return (
     <tr key={missionId}>
-      <td>{missionName}</td>
+      <td className="title">{missionName}</td>
       <td>{description}</td>
-      <td>
+      <td className="check">
         <Badge className={reserved ? 'Active' : 'Action'}>
           {reserved ? 'ACTIVE MEMBER' : 'NOT A MEMEBR'}
         </Badge>
       </td>
-      <td>
+      <td width="15%" className="check">
         <Button
           id={missionId}
           onClick={reserved ? leaveAMission : joinAmission}
