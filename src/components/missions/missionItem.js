@@ -12,13 +12,14 @@ const MissionItems = ({ items }) => {
 
   const dispatch = useDispatch();
 
-  const joinAmission = () => {
-    dispatch(joinMission(missionId));
-  };
+ const joinAmission = () => {
+  dispatch(joinMission(missionId))
+ }
 
-  const leaveAMission = () => {
-    dispatch(leavingMission(missionId));
-  };
+ const leaveAmission = () => {
+  dispatch(leavingMission(missionId))
+ }
+
   return (
     <tr key={missionId}>
       <td className="title">{missionName}</td>
@@ -31,7 +32,7 @@ const MissionItems = ({ items }) => {
       <td width="15%" className="check">
         <Button
           id={missionId}
-          onClick={reserved ? leaveAMission : joinAmission}
+          onClick={reserved ? leaveAmission : joinAmission}
           className={reserved ? 'leaveBtn' : 'joinBtn'}
         >
           {reserved ? 'Leave Misson' : 'Join Mission'}

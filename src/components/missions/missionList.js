@@ -1,15 +1,10 @@
-import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
-import { fetchMissions } from '../../redux/missions/missionReducer';
+import { useSelector } from 'react-redux';
 import MissionItems from './missionItem';
 import './missionList.css';
 
 const MissionList = () => {
-  const dispatch = useDispatch();
   const missions = useSelector((state) => state.mission);
-  useEffect(() => {
-    dispatch(fetchMissions());
-  }, [dispatch]);
+
   return (
     <section className="tableSection">
       <table>
