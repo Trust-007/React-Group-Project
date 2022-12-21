@@ -13,7 +13,7 @@ const MissionList = () => {
   return (
     <section className="tableSection">
       <table>
-        <tr>
+        <tr style={{ backgroundColor: 'white' }}>
           <th width="10%" className="border">Mission</th>
           <th width="60%" className="border">Description</th>
           <th className="border">Status</th>
