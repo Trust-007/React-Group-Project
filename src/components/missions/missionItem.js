@@ -12,13 +12,13 @@ const MissionItems = ({ items }) => {
 
   const dispatch = useDispatch();
 
- const joinAmission = () => {
-  dispatch(joinMission(missionId))
- }
+  const joinAmission = () => {
+    dispatch(joinMission(missionId));
+  };
 
- const leaveAmission = () => {
-  dispatch(leavingMission(missionId))
- }
+  const leaveAmission = () => {
+    dispatch(leavingMission(missionId));
+  };
 
   return (
     <tr key={missionId}>
