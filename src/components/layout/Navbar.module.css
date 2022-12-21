@@ -12,9 +12,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 20px;
   background-color: transparent;
-  border-bottom: 1px solid rgb(34, 33, 33);
+  border-bottom: 1px solid rgb(70, 68, 68);
 }
 
 .logo {
@@ -22,6 +22,11 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
+}
+
+.logo div {
+  font-size: 30px;
 }
 
 nav ul {
@@ -30,14 +35,22 @@ nav ul {
   align-items: center;
   justify-content: flex-end;
   list-style: none;
-  gap: 50px;
+}
+
+nav ul li {
+  padding-inline: 20px;
+  padding-block: 0;
+}
+
+nav ul li:nth-of-type(2) {
+  border-right: 2px solid black;
 }
 
 nav ul li a {
-  color: black;
+  color: rgb(2, 148, 206);
   text-decoration: none;
 }
 
 .active {
-  border-bottom: 2px solid pink;
+  text-decoration: underline;
 }

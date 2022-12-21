@@ -1,6 +1,8 @@
+import ProfilePage from '../components/profile/ProfilePage';
+
 const Profile = () => (
   <>
-    <h1 style={{ marginTop: '10%' }}>Profile</h1>
+    <ProfilePage />
   </>
 );
 

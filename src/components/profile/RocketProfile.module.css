@@ -1,0 +1,13 @@
+.list {
+  list-style: none;
+  padding: 0;
+  border: 1px solid black;
+  border-bottom: none;
+  border-radius: 5px;
+}
+
+.list li {
+  padding: 20px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
