@@ -18,13 +18,14 @@ const MissionList = () => {
           <td>Status</td>
           <td>{' '}</td>
         </tr>
-        {
+        <tbody>
+          {
         missions.map((elements) => (
 
           <MissionItems key={elements.missionId} items={elements} />
         ))
      }
-
+        </tbody>
       </table>
     </section>
   );
