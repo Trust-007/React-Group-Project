@@ -88,6 +88,8 @@ Working with the real live data from the SpaceX API. Build a web application for
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+<img width="600" src="https://media.giphy.com/media/zKah3ZqTB9Yvu2TKZ4/giphy.gif">
+
 
 - [Here is a live demo](https://spaceship-irm6.onrender.com)
 
