@@ -57,13 +57,17 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [SpaceShip] <a name="about-project"></a>
+# 📖 [your_project_name] <a name="about-project"></a>
 
-Working with the real live data from the SpaceX API. Build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets, book dragons and join selected space missions.
+> Describe your project in 1 or 2 sentences.
+
+**[your_project__name]** is a...
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -72,15 +76,29 @@ Working with the real live data from the SpaceX API. Build a web application for
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
+> Describe between 1-3 key features of the application.
 
-- **[Use CreateAsyncThunk in Redux.]**
-- **[Fetch datas from a database with Redux]**
-- **[Conditional rendering in React]**
-- **[Single Page App]**
+- **[key_feature_1]**
+- **[key_feature_2]**
+- **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,10 +106,9 @@ Working with the real live data from the SpaceX API. Build a web application for
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-<img width="600" src="https://media.giphy.com/media/zKah3ZqTB9Yvu2TKZ4/giphy.gif">
+> Add a link to your deployed project.
 
-
-- [Here is a live demo](https://spaceship-irm6.onrender.com)
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,58 +116,83 @@ Working with the real live data from the SpaceX API. Build a web application for
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+> Describe how a new developer could make use of your project.
+
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-- A web browser to view output e.g Google Chrome.
-- An IDE e.g Visual studio code.
-- node should be installed in your local machine, node website.
-- Install the npm package manager use this to install both node and npm.
-- A terminal.
+<!--
+Example command:
+
+```sh
+ gem install rails
+```
+ -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
+<!--
+Example commands:
 
 ```sh
-  https://github.com/Trust-007/React-Group-Project.git
+  cd my-folder
+  git clone git@github.com:myaccount/my-project.git
 ```
+--->
 
 ### Install
 
 Install this project with:
 
+<!--
+Example command:
+
 ```sh
-  npm install
+  cd my-project
+  gem install
 ```
+--->
 
 ### Usage
 
 To run the project, execute the following command:
 
+<!--
+Example command:
 
 ```sh
-   npm start
+  rails server
 ```
+--->
 
 ### Run tests
 
 To run tests, run the following command:
 
+<!--
+Example command:
+
 ```sh
-   npm test
+  bin/rails test test/models/article_test.rb
 ```
+--->
 
 ### Deployment
 
 You can deploy this project using:
 
-- I used render to delpoy the project.
+<!--
+Example:
 
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,18 +200,19 @@ You can deploy this project using:
 
 ## 👥 Authors <a name="authors"></a>
 
+> Mention all of the collaborators of this project.
 
 👤 **Author1**
 
-- GitHub: [@gSimeonTrust](https://github.com/Trust-007)
-- Twitter: [@SimeonTrust](https://twitter.com/simeontrust7)
-- LinkedIn: [SimeonTrust](https://www.linkedin.com/in/trust-simeon/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 👤 **Author2**
 
-- GitHub: [@anyepeter](https://github.com/anyepeter)
-- Twitter: [@peterchendi](https://twitter.com/anye_peter)
-- LinkedIn: [peterchendi](https://www.linkedin.com/in/peter-chendi-83978a220/)
+- GitHub: [@githubhandle](https://github.com/githubhandle)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,9 +222,9 @@ You can deploy this project using:
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[Enable Search Feature]**
-- [ ] **[ Imporove responsitivity]**
-- [ ] **[Style Myprofile page better]**
+- [ ] **[new_feature_1]**
+- [ ] **[new_feature_2]**
+- [ ] **[new_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -199,31 +242,35 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please give a start⭐️
+> Write a message to encourage readers to support your project
+
+If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-- Thanks to the Microverse team for the great curriculum.
-- Thanks to the Code Reviewer(s) for the insightful feedbacks.
-- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
-- Hat tip to anyone whose code was used.
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
 > Add at least 2 questions new developers would ask when they decide to use your project.
 
-- **[ Can I Fork it and Imporove on it]**
+- **[Question_1]**
 
-  - [Yes, You can, feel free.]
+  - [Answer_1]
 
-- **[Does the API respond always]**
+- **[Question_2]**
 
-  - [Yes, always.]
+  - [Answer_2]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -233,6 +280,6 @@ If you like this project please give a start⭐️
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/)
+_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
