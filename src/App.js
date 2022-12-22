@@ -5,12 +5,14 @@ import fetchRockets from './redux/rockets/rocketThunk';
 import Home from './pages/Home';
 import Profile from './pages/Profile';
 import Missionpage from './pages/Mission';
+import { fetchMission } from './redux/missions/missionReducer';
 
 function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
     dispatch(fetchRockets());
+    dispatch(fetchMission());
   }, [dispatch]);
   return (
     <Routes>
