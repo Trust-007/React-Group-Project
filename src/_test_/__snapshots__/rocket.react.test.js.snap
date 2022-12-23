@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display the rockets in the page should display all the rockets 1`] = `
+<div>
+  <div
+    class="rockets"
+  >
+    No rockets Found
+  </div>
+</div>
+`;
+
+exports[`should show the navigation full app rendering/navigating 1`] = `
+<a
+  class=""
+  href="/rockets"
+>
+  Rockets
+</a>
+`;

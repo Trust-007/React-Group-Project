@@ -1,0 +1,8 @@
+.rockets {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: black;
+  margin-block: 10%;
+  margin-inline: 5%;
+}
